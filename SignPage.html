@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/Reset.css">
+  <link rel="stylesheet" href="css/SignPage.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/fovicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/fovicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/fovicons/favicon-16x16.png">
+    <link rel="manifest" href="img/fovicons/site.webmanifest">
+    <link rel="mask-icon" href="img/fovicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="img/fovicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="img/fovicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+  <title>Discover Amazing places in Japan</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+
+
+      <div class="head">
+        <div class="header__logo">
+          <a href="MainPage.html" class="header__logo__link">
+            <img src="img/svg/OdigoLogo.svg" alt="OdigoLogo" class="header__logo-pic">
+          </a>
+        </div>
+
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item"><a href="#" class="header__item-link">Sign in</a></li>
+          </ul>
+          <div class="header_nav_close">
+            <span class="header_nav_close_line header_nav_close-line_first"></span>
+            <span class="header_nav_close_line header_nav_close-line_second"></span>
+          </div>
+        </nav>
+        <div class="header__burger burger">
+          <span class="burger__line burger__line-first"></span>
+          <span class="burger__line burger__line-second"></span>
+          <span class="burger__line burger__line-third"></span>
+        </div>
+      </div>
+
+
+    </div>
+  </header>
+
+  <section class="first__section">
+    <form class="form" action="index.html" method="get" style="width: 50%; margin: 0 auto;">
+
+      <div class="row">
+        <div class="col">
+          <div class="form-group"><label for="Firstname">Firstname</label>
+            <input type="text" name="Firstname" value="" id="Firstname" class="form-control">
+            <!--<div class="invalid-feedback">Looks Good!</div>-->
+            <div class="form-text text-muted"><small>This should be your Firstname!</small></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group"><label for="Lastname">Lastname</label>
+            <input type="text" name="Lastname" value="" id="Lastname" class="form-control">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="form-group"><label for="username">Username</label>
+        <input type="text" name="username" value="" id="username" class="form-control">
+      </div>
+
+      <div class="form-group"><label for="password">Password</label>
+        <input type="password" name="password" value="" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="number">Number</label>
+        <input type="number" name="number" value="" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender" class="form-control">
+          <option value="None">None</option>
+          <option value="Man">Man</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="checkbox" value="" id="checkbox">
+          <label class="form-check-label" for="checkbox">Accept Terms & Conditions</label>
+        </div>
+      </div>
+      <button type="submit" name="button" class="btn btn-primary">Submit</button>
+
+    </form>
+  </section>
+
+
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/Animate.css">
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script type="text/javascript" src="js/js.js"></script>
+</body>
+
+</html>

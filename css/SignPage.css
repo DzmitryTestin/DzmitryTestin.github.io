@@ -1,0 +1,145 @@
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url("../fonts/lato-v16-latin-regular.woff2") format("woff2"), url("../fonts/lato-v16-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* lato-700 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local("Lato-Bold"), url("../fonts/lato-v16-latin-700.woff2") format("woff2"), url("../fonts/lato-v16-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* lato-900 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Lato Black"), local("Lato-Black"), url("../fonts/lato-v16-latin-900.woff2") format("woff2"), url("../fonts/lato-v16-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body {
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  font-family: 'Lato';
+  line-height: 1.2;
+  font-weight: normal;
+  color: black;
+  font-size: 16px;
+  margin: 0 auto; }
+
+.wrapper {
+  width: 100%;
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+  padding-bottom: 20px; }
+
+.header_active {
+  background: #0E1D28;
+  padding-bottom: 10px; }
+
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 56px; }
+  .head .header__logo-pic {
+    width: 100%;
+    max-width: 100%; }
+  .head .header__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .head .header__item {
+    padding-right: 82px; }
+  .head .header__item:last-child {
+    padding-right: 0; }
+  .head .header__item-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px; }
+  .head .header__item-link:active,
+  .head .header__item-link:focus,
+  .head .header__item-link:hover {
+    opacity: 0.75; }
+
+.header__burger {
+  width: 40px;
+  height: 28px;
+  position: relative;
+  display: none;
+  opacity: 0.75; }
+  .header__burger .burger__line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: 0; }
+  .header__burger .burger__line-first {
+    top: 0; }
+  .header__burger .burger__line-second {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .header__burger .burger__line-third {
+    bottom: 0; }
+
+.header__burger:active,
+.header__burger:focus,
+.header__burger:hover {
+  cursor: pointer; }
+
+/*first__section start */
+.first__section {
+  height: 100%;
+  background: url("../img/Firstsecbackground.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 160px; }
+
+.form {
+  color: white; }
